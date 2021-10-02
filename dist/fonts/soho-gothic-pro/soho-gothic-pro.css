@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Soho Gothic Pro';
+    src: url('./soho-gothic-pro-thin.eot');
+    src: url('./soho-gothic-pro-thin.eot?#iefix') format('embedded-opentype'),
+         url('./soho-gothic-pro-thin.woff') format('woff'),
+         url('./soho-gothic-pro-thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soho Gothic Pro';
+    src: url('./soho-gothic-pro-light.eot');
+    src: url('./soho-gothic-pro-light.eot?#iefix') format('embedded-opentype'),
+         url('./soho-gothic-pro-light.woff') format('woff'),
+         url('./soho-gothic-pro-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soho Gothic Pro';
+    src: url('./soho-gothic-pro-regular.eot');
+    src: url('./soho-gothic-pro-regular.eot?#iefix') format('embedded-opentype'),
+         url('./soho-gothic-pro-regular.woff') format('woff'),
+         url('./soho-gothic-pro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soho Gothic Pro';
+    src: url('./soho-gothic-pro-italic.eot');
+    src: url('./soho-gothic-pro-italic.eot?#iefix') format('embedded-opentype'),
+         url('./soho-gothic-pro-italic.woff') format('woff'),
+         url('./soho-gothic-pro-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Soho Gothic Pro';
+    src: url('./soho-gothic-pro-bold.eot');
+    src: url('./soho-gothic-pro-bold.eot?#iefix') format('embedded-opentype'),
+         url('./soho-gothic-pro-bold.woff') format('woff'),
+         url('./soho-gothic-pro-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soho Gothic Pro';
+    src: url('./soho-gothic-pro-bolditalic.eot');
+    src: url('./soho-gothic-pro-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('./soho-gothic-pro-bolditalic.woff') format('woff'),
+         url('./soho-gothic-pro-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

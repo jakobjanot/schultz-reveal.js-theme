@@ -1,0 +1,32 @@
+{
+  "name": "schultz-reveal.js-theme",
+  "version": "1.0.0",
+  "description": "Schultz themes for reveal.js",
+  "homepage": "https://revealjs.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": {
+    "name": "Jakob Kofoed Janot",
+    "email": "jkj@schultz.dk",
+    "web": "https://www.schultz.dk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakobjanot/schultz-reveal.js-theme.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [
+    "schultz",
+    "reveal",
+    "slides",
+    "presentation"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.32.13"
+  }
+}

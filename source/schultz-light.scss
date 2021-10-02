@@ -1,0 +1,52 @@
+/**
+ * Light theme following the Schultz design
+ *
+ * By Jakob Kofoed Janot
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url(fonts/soho-gothic-pro/soho-gothic-pro.css);
+
+
+// Override theme settings (see settings.scss)
+$backgroundColor: #f1ebe4;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 42px;
+$mainFont: 'Soho Gothic Pro', Tahoma, sans-serif;
+$headingFont: 'Soho Gothic Pro', Tahoma, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: bold;
+$linkColor: #32327b;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: #00b8f2;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+body:after {
+    content: url(images/schultz-s.png);
+    position: fixed;
+    bottom: 3.5em;
+    left: 3.5em;
+}
